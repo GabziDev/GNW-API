@@ -27,5 +27,14 @@ app.use("/", require("./routes/routes"));
 
 // Lancer le serveur
 app.listen(port, () => {
+    console.log(`
+  ▄▀  ██   ███   ▄▄▄▄▄▄   ██▄   ▄███▄      ▄   
+▄▀    █ █  █  █ ▀   ▄▄▀   █  █  █▀   ▀      █  
+█ ▀▄  █▄▄█ █ ▀ ▄ ▄▀▀   ▄▀ █   █ ██▄▄   █     █ 
+█   █ █  █ █  ▄▀ ▀▀▀▀▀▀   █  █  █▄   ▄▀ █    █ 
+ ███     █ ███            ███▀  ▀███▀    █  █  
+        █                                 █▐   
+       ▀                                  ▐    
+    `);
     console.log("Serveur démarré !");
 });
