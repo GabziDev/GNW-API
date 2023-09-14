@@ -1,4 +1,4 @@
-/node_modules
+node_modules
 .git
 note.txt
-config/database.js
+.env
