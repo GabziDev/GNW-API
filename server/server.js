@@ -1,13 +1,11 @@
 //GNW-API
-//v1
+//v1.0
 const express = require('express');
 
 const app = express();
 const port = 3000;
 
-app.get("/test", (req, res) => {
-    res.json({ message: "Ok !" });
-});
+app.use("/", require("./routes/routes"));
 
 app.listen(port, () => {
     console.log("Serveur démarré !");
